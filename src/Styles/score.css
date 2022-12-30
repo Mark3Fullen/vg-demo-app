@@ -1,0 +1,46 @@
+.score {
+    display: flex;
+    margin: 10px;
+    height: 2em;
+    justify-content: space-evenly;
+}
+
+.score h4{
+    margin: 0px;
+    margin-left: 60px;
+    margin-bottom: .1em;
+}
+
+.player0{
+    color:red;
+    padding: 5px;
+}
+
+.player1{
+    color:blue;
+    padding: 5px;
+}
+
+@media screen and (max-width:350px) {
+    .score {
+        width:20em;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 5em;
+        left:3em;
+    }  
+}
+
+@media (min-width:350px) and (max-width:510px) {
+    .score{
+        width:30em;
+        margin-left: 4em;
+    }
+}
+
+@media (min-width:1500px) {
+    .score{
+        margin-right: 5em;
+    }
+}

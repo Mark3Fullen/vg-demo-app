@@ -1,0 +1,57 @@
+.App {
+
+  text-align: center;
+
+}
+
+.app {
+
+    width: 90%;
+    margin: 20%;
+    margin-top: 75%;
+
+}
+
+.heading {
+
+  padding: 10%;
+  margin-left: 15%;
+
+  border: 2px solid white;
+  border-radius: 25%;
+
+}
+
+.tI {
+
+  color: red;
+
+}
+
+.tA {
+
+  color: blue;
+
+}
+
+.tO {
+
+  color: yellow
+
+}
+
+.restartButton {
+
+  margin-left: 30%;
+
+  border-radius: 20%;
+  height: 80px;
+  width: 40%;
+
+  color: green;
+
+}
+
+
+
+
