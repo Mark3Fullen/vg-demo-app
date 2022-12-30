@@ -18,7 +18,7 @@ function App() {
 
   const clickHandler = (i) => {
 
-    if (sign[i]=='x' || sign[i]=='o') return
+    if (sign[i]==='x' || sign[i]==='o') return
 
     if (result.length) return
 
@@ -47,11 +47,11 @@ function App() {
 
     let fieldValues = sign[x]+sign[y]+sign[z];
 
-    if (fieldValues == playerX) {
+    if (fieldValues === playerX) {
       setResult('Player 0 wins!');
       setResultColor('red');
       setScoreX(scoreX + 1)
-    } else if (fieldValues == playerO) {
+    } else if (fieldValues === playerO) {
       setResult('Player 1 wins!');
       setResultColor('blue');
       setScoreO(scoreO + 1);
@@ -63,7 +63,7 @@ function App() {
 
     let allContent = sign.every(e => e)
 
-    if (allContent && result.length == 0) {
+    if (allContent && result.length === 0) {
       setResult('The game is tied!');
       setResultColor('yellow');
     }
