@@ -1,6 +1,6 @@
 import React from "react";
 
-import '../Styles/board.css';
+import './tiktoktoe-app-styles/board.css';
 
 const Board = props => {
 

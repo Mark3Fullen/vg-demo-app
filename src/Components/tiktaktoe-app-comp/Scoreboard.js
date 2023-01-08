@@ -1,5 +1,6 @@
 import React from "react";
-import '../Styles/score.css';
+
+import './tiktoktoe-app-styles/score.css';
 
 const Score = props => {
 

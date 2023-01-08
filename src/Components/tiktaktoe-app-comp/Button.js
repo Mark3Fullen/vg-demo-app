@@ -1,6 +1,6 @@
 import React from "react";
 
-import '../Styles/btn.css';
+import './tiktoktoe-app-styles/btn.css';
 
 const Button = ({ value, onClick }) => {
 

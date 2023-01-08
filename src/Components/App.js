@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import './Styles/App.css';
-import './Styles/board.css';
+import '../Styles/App.css';
+import './tiktaktoe-app-comp/tiktoktoe-app-styles/score.css';
 
-import Scoreboard from './Components/Scoreboard'
-import Button from './Components/Button'
-import Board from './Components/Board'
+import Scoreboard from './tiktaktoe-app-comp/Scoreboard'
+import Button from './tiktaktoe-app-comp/Button'
+import Board from './tiktaktoe-app-comp/Board'
 
 function App() {
 
