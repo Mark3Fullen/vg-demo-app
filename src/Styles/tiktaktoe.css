@@ -16,7 +16,6 @@
 
   padding: 10%;
   margin-left: 15%;
-
   border: 2px solid white;
   border-radius: 25%;
 
@@ -43,7 +42,7 @@
 .restartButton {
 
   margin-left: 30%;
-
+  margin-right: 30%;
   border-radius: 20%;
   height: 80px;
   width: 40%;
@@ -51,7 +50,5 @@
   color: green;
 
 }
-
-
 
 

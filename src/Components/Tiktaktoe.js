@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import '../Styles/App.css';
+import { NavLink } from 'react-router-dom';
+import '../Styles/tiktaktoe.css';
 import './tiktaktoe-app-comp/tiktoktoe-app-styles/score.css';
 
 import Scoreboard from './tiktaktoe-app-comp/Scoreboard'

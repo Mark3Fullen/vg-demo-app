@@ -1,0 +1,23 @@
+.title {
+
+    padding: 0.5em;
+    border: 2px solid black;
+    border-radius: 20%;
+
+}
+
+.navBar {
+
+    position: fixed;
+    margin-right: 75%;
+
+}
+
+.gameLink {
+
+    color: #000;
+    border-top: 1px solid #000;
+    border-radius: 50%;
+    padding: 2em;
+
+}
