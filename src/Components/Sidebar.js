@@ -3,32 +3,27 @@ import { NavLink } from "react-router-dom";
 
 import '../Styles/sidebar.css';
 
+import HomeIcon from '@mui/icons-material/Home';
+
 const Sidebar = () => {
 
     return (
 
         <div className="navBar">
 
-            <h3 className="title">Directory</h3>
+            <h3 className="title">Eclectic Flash Web App</h3>
 
-            <p>Eclectic Flash Web App</p>
-
-            <br/>
-
-            <br/>
-
-            <br/>
 
             <NavLink to="/">
-                <p className="gameLink">Home</p>
+                <p className="homeLink"><HomeIcon/></p>
             </NavLink>
 
             <NavLink to="/tiktaktoe">
                 <p className="gameLink">TikTakToe</p>
             </NavLink>
 
-            <NavLink>
-                <p className="gameLink">Game2</p>
+            <NavLink to="/memorycardgame">
+                <p className="gameLink">Memory Card Game</p>
             </NavLink>
 
             <NavLink>
