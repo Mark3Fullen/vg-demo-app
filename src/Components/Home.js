@@ -8,13 +8,22 @@ const Home = () => {
 
         <div>
 
-            <h3>Title</h3>
+            <div className="header">
+
+                <h3 className="headerTitle">Pick A Game, Any Game!</h3>
+
+            </div>
 
             <br/>
 
-            <br/>        
+            <br/>
 
-            <p>This is where the body will go</p>
+            <div className="bodyHome">
+                
+                <p>This is where the body will go</p>
+
+
+            </div>        
             
         </div>
 

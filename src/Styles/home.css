@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    width: 100%;
+    height: 25%;
+    background-color: grey;
+    margin: -20%;
+    margin-top: -25%;
+}
+
+.headerTitle {
+
+    text-align: center;
+    padding: 5%;
+    padding-right: 25%;
+
+}
+
+/* .bodyHome {
+
+
+} */
