@@ -83,7 +83,7 @@ function App() {
 
   return (
 
-    <div className="app">
+    <div className="tiktaktoeapp">
 
       <div className="heading">
         <h1 className="tI">Tik</h1>
@@ -105,11 +105,11 @@ function App() {
         <Button value={sign[8]} onClick={() => clickHandler(8)}/>
       </Board>
 
-      <div className="resultDiv">
+      <div className="tiktaktoeresultdiv">
         <h2>Result:</h2><h2 className="winner" style={{color:resultColor}}>{result}</h2>
       </div>
 
-      <button className="restartButton" onClick={restartGameHandler}>Restart Game</button>
+      <button className="tiktaktoerestartButton" onClick={restartGameHandler}>Restart Game</button>
 
     </div>
 

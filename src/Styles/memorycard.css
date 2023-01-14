@@ -19,8 +19,8 @@
     justify-items: center;
     align-items: stretch;
     gap: 10rem;
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
     perspective: 20%;
     max-width: 50%;
 }

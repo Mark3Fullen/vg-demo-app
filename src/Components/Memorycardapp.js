@@ -112,11 +112,12 @@ const Memorycardapp = () => {
     useEffect(() => {
         checkCompletion();
       }, [clearedCards]);
-      const checkIsFlipped = (index) => {
+      
+    const checkIsFlipped = (index) => {
         return openCards.includes(index);
       };
     
-      const checkIsInactive = (card) => {
+    const checkIsInactive = (card) => {
         return Boolean(clearedCards[card.type]);
       };
 
@@ -159,6 +160,7 @@ const Memorycardapp = () => {
                 <div>
                     <span>Moves:</span> {moves}
                 </div>
+                {showModal ? <p>Finished game in {moves} moves!</p> : null}
                 <br/>
                 <div className="memorycardapprestartdiv">
                     <button className="memorycardapprestart" onClick={handleRestart}>Restart</button>

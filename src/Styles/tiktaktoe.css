@@ -1,13 +1,8 @@
-.App {
-
-  text-align: center;
-
-}
-
-.app {
+.tiktaktoeapp {
 
     width: 90%;
     margin: 20%;
+    margin-left: 50%;
     margin-top: 75%;
 
 }
@@ -39,7 +34,7 @@
 
 }
 
-.restartButton {
+.tiktaktoerestartButton {
 
   margin-left: 30%;
   margin-right: 30%;
