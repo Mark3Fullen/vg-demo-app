@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from "react";
+import React, {useState, useEffect, useRef, useCallback} from "react";
 
 import Memorycard from "./memory-card-app-comp/Memorycard";
 
@@ -65,15 +65,15 @@ const Memorycardapp = () => {
         setShouldDisableAllCards(false)
     }
 
-    const checkCompletion = () => {
+    const checkCompletion = useCallback(() => {
         if (Object.keys(clearedCards).length === uniqueElementsArray.length) {
             setShowModal(true);
             // const highScore = Math.min(moves, bestScore);
             // setBestScore(highScore);
         }
-    }
+    }, [clearedCards]);
 
-    const evaluate = () => {
+    const evaluate = useCallback(() => {
         const [first, second] = openCards;
         enable();
         if (cards[first].type === cards[second].type) {
@@ -86,7 +86,7 @@ const Memorycardapp = () => {
             setOpenCards([]);
         }, 500);
 
-    }
+    }, [cards, openCards]);
 
     const handleCardClick = (index) => {
         if (openCards.length === 1) {
@@ -107,11 +107,11 @@ const Memorycardapp = () => {
         return () => {
             clearTimeout(timeout);
         }
-    }, [openCards]);
+    }, [openCards, evaluate]);
 
     useEffect(() => {
         checkCompletion();
-      }, [clearedCards]);
+      }, [clearedCards, checkCompletion]);
       
     const checkIsFlipped = (index) => {
         return openCards.includes(index);
