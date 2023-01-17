@@ -2,8 +2,7 @@
 
     width: 10%;
     height: 10%;
-    border-radius: 4px;
-    transition: 0.3s;
+    transition: 0.5s;
     transform-style: preserve-3d;
     position: relative;
     cursor: pointer;
@@ -13,4 +12,16 @@
 .card-face {
     backface-visibility: hidden;
     position: absolute;
+}
+
+.card-back-face { 
+    transform: rotateY(180deg);
+}
+
+.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.is-inactive {
+    opacity: 0;
 }

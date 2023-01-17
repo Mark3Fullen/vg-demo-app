@@ -12,13 +12,13 @@
 .memorycardcontainer {
 
     margin: 10%;
-    margin-left: 25%;
+    margin-left: 21%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
     align-items: stretch;
-    gap: 10rem;
+    gap: 12rem;
     width: 20%;
     height: 20%;
     perspective: 20%;
