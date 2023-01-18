@@ -2,9 +2,9 @@ import React, { useState } from "react";
 
 import '../Styles/rockpaperscissors.css';
 
-import Paper from './rps-imgs/paper.jpg';
-import Rock from './rps-imgs/rock.jpg';
-import Scissors from './rps-imgs/scissor.jpg';
+import Paper from './rps-imgs/Paper.jpg';
+import Rock from './rps-imgs/Rock.jpg';
+import Scissors from './rps-imgs/Scissors.jpg';
 
 
 const RockPaperScissors = () => {
@@ -57,9 +57,11 @@ const RockPaperScissors = () => {
             </header>
             <div className="rpsbody">
 
-                CPU Choice: {cpuChoice.toLocaleUpperCase()}
-                <br/>
-                User Choice: {userChoice.toLocaleUpperCase()}
+                <div className="rpsChoiceSec">
+                    <h4>CPU Choice: {cpuChoice.toLocaleUpperCase()}</h4>
+                    <br/>
+                    <h4>User Choice: {userChoice.toLocaleUpperCase()}</h4>
+                </div>
 
                 <div className="rpsgameimgdiv">
                     {/* <h3 className="rpsgameimgs" onClick={() => handleRPSgameclick('r')}>R</h3>
