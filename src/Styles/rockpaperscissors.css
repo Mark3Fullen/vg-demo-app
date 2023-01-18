@@ -1,0 +1,38 @@
+.rpsapp {
+    position: fixed;
+    margin: 25%;
+    margin-left: 25%;
+}
+
+.rpsheader {
+    position: fixed;
+    margin: -30%;
+    margin-left: -15%;
+    padding: 10%;
+    width: 50%;
+}
+
+.rpsbody {
+    margin: 25%;
+    padding: 20%;
+}
+
+.rpsfooter {
+    position: fixed;
+    margin: 10%;
+    margin-left: 5%;
+}
+
+.rpsgameimgdiv {
+    display: grid;
+    position: fixed;
+    grid-template-columns: 40px 100px auto 20px;
+    justify-content: space-evenly;
+    gap: 4rem;
+}
+
+.rpsgameimgs {
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 20%;
+}

@@ -26,8 +26,8 @@ const Sidebar = () => {
                 <p className="gameLink">Memory Card Game</p>
             </NavLink>
 
-            <NavLink>
-                <p className="gameLink">Game3</p>
+            <NavLink to="/rockpaperscissors">
+                <p className="gameLink">Rock Paper Scissors</p>
             </NavLink>
 
             <NavLink>

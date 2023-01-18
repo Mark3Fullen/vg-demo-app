@@ -20,8 +20,7 @@ const Home = () => {
 
             <div className="bodyHome">
                 
-                <p>This is where the body will go</p>
-
+                
 
             </div>        
             
