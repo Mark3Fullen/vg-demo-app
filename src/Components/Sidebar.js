@@ -30,8 +30,8 @@ const Sidebar = () => {
                 <p className="gameLink">Rock Paper Scissors</p>
             </NavLink>
 
-            <NavLink>
-                <p className="gameLink">Game4</p>
+            <NavLink to="/lightson">
+                <p className="gameLink">Lights On</p>
             </NavLink>
 
             <NavLink>

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Tiktaktoe from './Components/Tiktaktoe'
 import Memorycard from './Components/Memorycardapp'
 import RockPaperScissors from "./Components/RockPaperScissors";
+import LightsOn from "./Components/LightsOn";
 import Home from './Components/Home'
 import Sidebar from './Components/Sidebar'
 
@@ -26,6 +27,8 @@ function App() {
                 <Route exact path="/memorycardgame" element={<Memorycard/>} />
 
                 <Route exact path="/rockpaperscissors" element={<RockPaperScissors/>} />
+
+                <Route exact path="/lightson" element={<LightsOn/>} />
             
             </Routes>
 

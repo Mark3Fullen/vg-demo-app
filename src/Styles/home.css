@@ -5,6 +5,7 @@
     background-color: grey;
     margin: -25%;
     margin-top: -25%;
+    margin-left: -12%;
 }
 
 .headerTitle {
@@ -15,7 +16,10 @@
 
 }
 
-/* .bodyHome {
+.bodyHome {
 
+    margin: -10%;
+    margin-left: 70%;
+    margin-top: -10%;
 
-} */
+}

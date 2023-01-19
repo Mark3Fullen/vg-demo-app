@@ -12,6 +12,31 @@ const RockPaperScissors = () => {
     const [cpuChoice, setCpuChoice] = useState("");
     const [winner, setWinner] = useState("");
 
+    const checkRPS = () => {
+
+        if (cpuChoice === 'r' && userChoice === 'r') {
+            setWinner('');
+        } else if (cpuChoice === 'p' && userChoice === 'r') {
+            setWinner('CPU');
+        } else if (cpuChoice === 's' && userChoice === 'r') {
+            setWinner('User');
+        } else if (cpuChoice === 'r' && userChoice === 'p') {
+            setWinner('User');
+        } else if (cpuChoice === 'p' && userChoice === 'p') {
+            setWinner('');
+        } else if (cpuChoice === 's' && userChoice === 'p') {
+            setWinner('CPU');
+        } else if (cpuChoice === 'r' && userChoice === 's') {
+            setWinner('CPU');
+        } else if (cpuChoice === 'p' && userChoice === 's') {
+            setWinner('User');
+        } else if (cpuChoice === 's' && userChoice === 's') {
+            setWinner('');
+        };
+
+
+    };
+
     const handleRPSgameclick = (l) => {
 
         const x = Math.floor((Math.random() * 3) + 1);
@@ -26,25 +51,7 @@ const RockPaperScissors = () => {
 
         setUserChoice(l);
 
-        if (cpuChoice === 'r' && userChoice === 'r') {
-            setWinner('')
-        } else if (cpuChoice === 'p' && userChoice === 'r') {
-            setWinner('CPU')
-        } else if (cpuChoice === 's' && userChoice === 'r') {
-            setWinner('User')
-        } else if (cpuChoice === 'r' && userChoice === 'p') {
-            setWinner('User')
-        } else if (cpuChoice === 'p' && userChoice === 'p') {
-            setWinner('')
-        } else if (cpuChoice === 's' && userChoice === 'p') {
-            setWinner('CPU')
-        } else if (cpuChoice === 'r' && userChoice === 's') {
-            setWinner('CPU')
-        } else if (cpuChoice === 'p' && userChoice === 's') {
-            setWinner('User')
-        } else if (cpuChoice === 's' && userChoice === 's') {
-            setWinner('')
-        }
+        checkRPS();
 
     };
 
