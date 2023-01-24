@@ -1,13 +1,18 @@
 .rpsapp {
     position: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 25%;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 .rpsheader {
     position: fixed;
-    margin: -25%;
-    margin-left: -15%;
+    margin: 5%;
+    margin-top: -25%;
+    margin-left: 23%;
     padding: 10%;
     width: 50%;
 }
@@ -21,7 +26,7 @@
 .rpsfooter {
     position: fixed;
     margin: 10%;
-    margin-left: 7%;
+    margin-left: 28%;
 }
 
 .rpsgameimgdiv {

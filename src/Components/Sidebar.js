@@ -11,12 +11,14 @@ const Sidebar = () => {
 
         <div className="navBar">
 
-            <h3 className="title">Eclectic Flash Web App</h3>
+            <h3 className="navBartitle"><span className="navBartitlename">Eclectic Flash Game App</span><NavLink to="/" className="navBartitleicon"><p><HomeIcon/></p></NavLink></h3>
+
+            {/* <h3 className="title">Eclectic Flash Web App</h3>
 
 
             <NavLink to="/">
                 <p className="homeLink"><HomeIcon/></p>
-            </NavLink>
+            </NavLink> */}
 
             <NavLink to="/tiktaktoe">
                 <p className="gameLink">TikTakToe</p>

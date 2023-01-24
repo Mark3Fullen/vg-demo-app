@@ -1,18 +1,21 @@
 .memorycardapp {
     font-family: sans-serif;
-    text-align: center;
     position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
     margin: 25%;
-    margin-left: 40%;
+    margin-left: 50%;
     margin-bottom: 40%;
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
 }
 
 .memorycardcontainer {
 
-    margin: 10%;
-    margin-left: 21%;
+    margin: 5%;
+    margin-left: -45%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -29,15 +32,12 @@
     position: relative;
     width: 100%;
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .memorycardappfooter {
     width: 360px;
     position: relative;
-    margin: 10%;
-    margin-top: 35%;
-    margin-left: 35%;
+    margin-top: 40%;
 }
 
 .memorycardapprestartdiv {

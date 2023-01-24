@@ -1,20 +1,37 @@
-.title {
-
-    padding: 0.5em;
-    border: 2px solid black;
-    border-radius: 20%;
-    margin: 10%;
-
-}
-
 .navBar {
 
     position: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     margin-right: 75%;
     background-color: grey;
     width: 25%;
     height: 100%;
 
+}
+
+.navBartitle {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 5%;
+    margin: 10%;
+    width: 80%;
+
+}
+
+.navBartitlename {
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.navBartitleicon {
+    color: black;
+    width: 100%;
+    height: 100%;
 }
 
 .homeLink {
@@ -30,11 +47,8 @@
 
 .gameLink {
 
-    background-color: white;
-    color: #000;
-    border: 1px solid #000;
-    border-radius: 50%;
-    padding: 3em;
+    color: red;
+    float: left;
     margin-left: 10%;
     margin-right: 10%;
 
