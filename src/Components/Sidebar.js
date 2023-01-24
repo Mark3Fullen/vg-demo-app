@@ -36,12 +36,24 @@ const Sidebar = () => {
                 <p className="gameLink">Lights On</p>
             </NavLink>
 
-            <NavLink>
-                <p className="gameLink">Game5</p>
+            <NavLink to="/tenzies">
+                <p className="gameLink">Tenzies</p>
             </NavLink>
 
-            <NavLink>
-                <p className="gameLink">Game6</p>
+            <NavLink to="/">
+                <p className="gameLink">Placeholder</p>
+            </NavLink>
+
+            <NavLink to="/">
+                <p className="gameLink">Placeholder</p>
+            </NavLink>
+
+            <NavLink to="/">
+                <p className="gameLink">Placeholder</p>
+            </NavLink>
+
+            <NavLink to="/">
+                <p className="gameLink">Placeholder</p>
             </NavLink>
 
         </div>
