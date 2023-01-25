@@ -9,7 +9,7 @@
     margin-left: 50%;
     margin-bottom: 30%;
     width: 50vw;
-    height: calc( 70vh );
+    height: calc( 75vh );
     background-color: white;
     border-radius: 20%;
 }
@@ -39,7 +39,7 @@
 .memorycardappfooter {
     width: 360px;
     position: relative;
-    margin-top: 40%;
+    margin-top: 20vw;
 }
 
 .memorycardapprestartdiv {
@@ -48,6 +48,7 @@
 }
 
 .memorycardapprestart {
+    margin: 45px;
     padding: 10%;
     height: 100%;
     width: 60%;

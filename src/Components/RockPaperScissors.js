@@ -14,23 +14,23 @@ const RockPaperScissors = () => {
 
     const checkRPS = () => {
 
-        if (cpuChoice === 'r' && userChoice === 'r') {
+        if (cpuChoice === 'Rock' && userChoice === 'Rock') {
             setWinner('');
-        } else if (cpuChoice === 'p' && userChoice === 'r') {
+        } else if (cpuChoice === 'Paper' && userChoice === 'Rock') {
             setWinner('CPU');
-        } else if (cpuChoice === 's' && userChoice === 'r') {
+        } else if (cpuChoice === 'Scissors' && userChoice === 'Rock') {
             setWinner('User');
-        } else if (cpuChoice === 'r' && userChoice === 'p') {
+        } else if (cpuChoice === 'Rock' && userChoice === 'Paper') {
             setWinner('User');
-        } else if (cpuChoice === 'p' && userChoice === 'p') {
+        } else if (cpuChoice === 'Paper' && userChoice === 'Paper') {
             setWinner('');
-        } else if (cpuChoice === 's' && userChoice === 'p') {
+        } else if (cpuChoice === 'Scissors' && userChoice === 'Paper') {
             setWinner('CPU');
-        } else if (cpuChoice === 'r' && userChoice === 's') {
+        } else if (cpuChoice === 'Rock' && userChoice === 'Scissors') {
             setWinner('CPU');
-        } else if (cpuChoice === 'p' && userChoice === 's') {
+        } else if (cpuChoice === 'Paper' && userChoice === 'Scissors') {
             setWinner('User');
-        } else if (cpuChoice === 's' && userChoice === 's') {
+        } else if (cpuChoice === 'Scissors' && userChoice === 'Scissors') {
             setWinner('');
         };
 
@@ -42,11 +42,11 @@ const RockPaperScissors = () => {
         const x = Math.floor((Math.random() * 3) + 1);
 
         if (x === 1) {
-            setCpuChoice('r')
+            setCpuChoice('Rock')
         } else if (x === 2) {
-            setCpuChoice('p')
+            setCpuChoice('Paper')
         } else if (x === 3) {
-            setCpuChoice('s')
+            setCpuChoice('Scissors')
         };
 
         setUserChoice(l);
@@ -65,18 +65,15 @@ const RockPaperScissors = () => {
             <div className="rpsbody">
 
                 <div className="rpsChoiceSec">
-                    <h4>CPU Choice: {cpuChoice.toLocaleUpperCase()}</h4>
+                    <h4>CPU Choice: {cpuChoice}</h4>
                     <br/>
-                    <h4>User Choice: {userChoice.toLocaleUpperCase()}</h4>
+                    <h4>User Choice: {userChoice}</h4>
                 </div>
 
                 <div className="rpsgameimgdiv">
-                    {/* <h3 className="rpsgameimgs" onClick={() => handleRPSgameclick('r')}>R</h3>
-                    <h3 className="rpsgameimgs" onClick={() => handleRPSgameclick('p')}>P</h3>
-                    <h3 className="rpsgameimgs" onClick={() => handleRPSgameclick('s')}>S</h3> */}
-                    <img className="rpsgameimgs" alt="paper" src={Paper} onClick={() => handleRPSgameclick('r')}/>
-                    <img className="rpsgameimgs" alt="rock" src={Rock} onClick={() => handleRPSgameclick('p')}/>
-                    <img className="rpsgameimgs" alt="scissors" src={Scissors} onClick={() => handleRPSgameclick('s')}/>
+                    <img className="rpsgameimgs" alt="Paper" src={Paper} onClick={() => handleRPSgameclick('Rock')}/>
+                    <img className="rpsgameimgs" alt="Rock" src={Rock} onClick={() => handleRPSgameclick('Paper')}/>
+                    <img className="rpsgameimgs" alt="Scissors" src={Scissors} onClick={() => handleRPSgameclick('Scissors')}/>
                 </div>
             </div>
             <footer className="rpsfooter">
