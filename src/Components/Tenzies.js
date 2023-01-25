@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 
+import '../Styles/tenzies.css';
+
 import TenzieDice from "./tenzies-app-comp/TenzieDice";
 
 const Tenzies = () => {
@@ -72,7 +74,7 @@ const Tenzies = () => {
         <div className="tenziesApp">
             {tenzies}
             <h1 className="tenzieTitle">Tenzies</h1>
-                <p className="tenzieIntructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls</p>
+                <p className="tenzieIntructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
             <div className="tenzieDice-container">
                 {diceEl}
             </div>
