@@ -25,3 +25,18 @@
     padding-left: 5vw;
 
 }
+
+.aboutBody {
+    position: fixed;
+    margin: 5vw;
+    margin-top: 50px;
+    padding: 20vh;
+    height: 65vh;
+    width: 135vh;
+    background-color: white;
+    border-radius: 15%;
+}
+
+.aboutBodyLinks {
+    padding: 5vh;
+}
