@@ -11,14 +11,10 @@ const Sidebar = () => {
 
         <div className="navBar">
 
-            <h3 className="navBartitle"><span className="navBartitlename">Eclectic Flash Game App</span><NavLink to="/" className="navBartitleicon"><p><HomeIcon/></p></NavLink></h3>
+            <h3 className="navBartitle">
+                <span className="navBartitlename">Eclectic Flash Game App</span><NavLink to="/" className="navBartitleicon"><p><HomeIcon/></p></NavLink>
+            </h3>
 
-            {/* <h3 className="title">Eclectic Flash Web App</h3>
-
-
-            <NavLink to="/">
-                <p className="homeLink"><HomeIcon/></p>
-            </NavLink> */}
 
             <NavLink to="/tiktaktoe">
                 <p className="gameLink">TikTakToe</p>
@@ -55,6 +51,12 @@ const Sidebar = () => {
             <NavLink to="/">
                 <p className="gameLink">Placeholder</p>
             </NavLink>
+
+                <h3 className="navBarFooter">
+                    <NavLink to="/about">
+                        <p>About</p>
+                    </NavLink>
+                </h3>
 
         </div>
 

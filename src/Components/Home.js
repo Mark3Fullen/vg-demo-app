@@ -20,7 +20,7 @@ const Home = () => {
 
             <div className="bodyHome">
                 
-                <p>This is an app to diplay flash games I've created based on examples around the web</p>
+                
 
             </div>        
             

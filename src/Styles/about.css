@@ -1,0 +1,27 @@
+.aboutApp {
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    width: 85vw;
+    height: 25vh;
+    margin-left: 25vw;
+    margin-top: 5vw;
+    padding: 60px;
+}
+
+.aboutHeader {
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    background-color: black;
+    margin-top: -50vh;
+}
+
+.aboutHeaderTitle {
+
+    text-align: center;
+    color: white;
+    padding: 60px;
+    padding-left: 5vw;
+
+}
