@@ -10,7 +10,7 @@ const About = () => {
 
             <div className="aboutHeader">
 
-                <h3 className="aboutHeaderTitle">About</h3>
+                <h3 className="aboutHeaderTitle">About Eclectic Flash</h3>
 
             </div>
 
